@@ -23,3 +23,12 @@ sudo adduser <użytkownik> <nazwa grupy>
 ```
 sudo chown <użytkownik> <nazwa pliku>
 ```
+
+### Zmiana domyslnego systemu i timeout w Grubie
+
+```
+sudo nano /etc/default/grub
+GRUB_DEFAULT=1
+GRUB_TIMEOUT=10
+sudo update-grub
+```
