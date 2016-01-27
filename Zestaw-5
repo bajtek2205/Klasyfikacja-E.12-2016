@@ -1,0 +1,16 @@
+- Zamontować zasilacz oraz dyski (juz jest z Windowsem) 
+- Wyswietlic i wypisac info o karcie graficznej (magistrala, pamiec, procesor, typ pamieci) wpisac program do testowania grafiki - ja uzylem GPU Z i zrobic zrzut, zapisac na pendrive o nazwie Egzamin 
+- Zaplanowac defragmentacje dysku C na raz w tyg godz 8:00 w srode
+- Utworzyc uzytkownikow z podanym hasłem i loginem 
+- Konto student ustawic wygasniecie hasła na dana date 
+- Usunac wyswietlanie liter dyskow dla konta student 
+- Student zwykły uzytkownik z hasłem bez mozliwosci jego zmiany 
+- Konto wykładowca - administrator z hasłem 
+- Uzyc linii komend do sprawdzenia dysku w poszukiwaniu błędów (w cmd wpisałem chkdsk) 
+- Utworzyc partycje pod linuxa(w zarzadzaniu dyskami zwalniamy niepotrzebne miejsce z partycji tak aby na nieprzylonym móc zainstalowac system)
+- Zainstalowac linuxa.
+- Czas wyboru zmienic na 15 sek (ja dalem nano /etc/default/grub i tam timeout z 10 na 15 ctrl+o zapisuje enter potwierdzam ctrl+x wychodze do terminala, a nastepnie wymagane jest aktolizowanie ustawien: update-grub 
+- Stworzyc konto podczas instalacji o nazwie egzamin hasło Egzaminl@ 
+- Zmienic czas wygasniecia ekranu na 15 min (nie znam komendy, w GUI mozna tylko 10min a nastepne to 30min) i screenshot 
+- Wyswietlic dyski i partycje (chyba df -h przypomniałem to sobie po egzaminie) i screenshot. Opcjonalnie można dopisać argument -H dla poprawienia czytelnosci. 
+- W libreoffice calc(arkusz kalkulacyjny) zrobić kosztorys sprzetu na podstawie danych z arkusza(dwie płyty glowne jedna na amd druga intel, procek jeden amd) kolumna suma ma miec autosumowanie. W arkuszu wystarczyło wybrac plyte glowna z am3 poniewaz socket prasował pod procesor, a nastepnie wypisac reszte sprzetu. 
