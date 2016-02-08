@@ -12,5 +12,5 @@
 - Czas wyboru zmienic na 15 sek (nano /etc/default/grub i tam timeout z 10 na 15 ctrl+o zapisuje enter potwierdzam ctrl+x wychodze do terminala, a nastepnie wymagane jest aktolizowanie ustawien: update-grub)
 - Stworzyc konto podczas instalacji o nazwie egzamin hasło Egzaminl@ 
 - Zmienic czas wygasniecia ekranu na 15 min (nie znam komendy, w GUI mozna tylko 10min a nastepne to 30min) i screenshot 
-- Wyswietlic dyski i partycje (df -h) i screenshot. Opcjonalnie można dopisać argument -H dla poprawienia czytelnosci. 
+- Wyswietlic dyski i partycje (lsblk lub fdisk -l) i screenshot.
 - W libreoffice calc(arkusz kalkulacyjny) zrobić kosztorys sprzetu na podstawie danych z arkusza(dwie płyty glowne jedna na amd druga intel, procek jeden amd) kolumna suma ma miec autosumowanie. W arkuszu wystarczyło wybrac plyte glowna z am3 poniewaz socket prasował pod procesor, a nastepnie wypisac reszte sprzetu. 
